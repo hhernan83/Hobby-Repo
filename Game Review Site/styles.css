@@ -73,16 +73,18 @@ img{
     flex-wrap: wrap;
     position: relative;
     top: 10px;
+    left: 100px;
     
 }
 .description{
     height: 150px;
     width: 500px;
-    border: 8px solid black;
+    border: 2px soid black;
     position: absolute;
     bottom: 0;
     right: 0;
-    text-align: center;
+    text-align: left;
+    left: 8px;
     font-size: 20px;
 }
 
@@ -96,7 +98,7 @@ img{
     width: 600px;
     border: 5px solid black;
     position: absolute;
-    right: 30px;
+    right: 200px;
     bottom: 0;
     top: 10px;
     background-color: aliceblue;
@@ -110,6 +112,7 @@ img{
     border: 5px solid green;
     width: 100%;
     height: 100%;
+    
 
 }
 
@@ -133,4 +136,20 @@ img{
     width: 100px;
     padding-left: 20px;
     filter: grayscale();
+}
+
+.about{
+    height: 400px;
+    width: 800px;
+    border: 2px solid black ;
+    background-color: white;
+    position: absolute;
+    right: 30%;
+    top: 5%;
+}
+.text{
+    position: relative;
+    border: 2px solid black;
+    height: 400px;
+    text-align: center;
 }
