@@ -6,8 +6,8 @@
 
 body{
     height: 100%;
-    background-color: white;
-    background-image: url(Images/th.jpg);
+    background-color: #ffcc99;
+    background-repeat: no-repeat;
     flex-wrap: wrap;
 
     
@@ -57,6 +57,7 @@ box-shadow: 20px solid black;
     opacity: .8;
     font-size: 30px;
     opacity: .8;
+    text-align: center;
     
  }
 img{
