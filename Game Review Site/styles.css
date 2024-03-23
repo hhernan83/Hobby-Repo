@@ -117,7 +117,7 @@ img{
 /* box containing star images */
 .stars{
     height: 100px;
-    width: 1000px;
+    width: 600px;
     position: relative;
     display: inline-flex;
     flex-wrap: wrap;
