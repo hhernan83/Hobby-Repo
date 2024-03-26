@@ -145,13 +145,19 @@ img{
 }
 
 .about{
+    margin-top: 50px;
     height: 400px;
     width: 800px;
     border: 2px solid black ;
     background-color: white;
-    position: absolute;
+    text-align: center;
     right: 30%;
     top: 5%;
+}
+
+.about_content{
+    text-align: left;
+    padding-left: 10px;
 }
 
 footer{
